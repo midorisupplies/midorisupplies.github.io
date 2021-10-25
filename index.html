@@ -1,1 +1,102 @@
-aaa
+<!-- 
+   
+-->
+<div class="container-fluid" id="top">
+<!--  content begins here! -->
+
+<!-- intro heading -->
+<div class="pagehead">
+<h1 class="fade-in one intro">Midori Supplies</h1>
+<p class="fade-in two blurb">Natural cleaning products.</p>
+	</div>
+<div class="fade-in three main">
+
+</div>
+<!-- End of intro heading -->
+<hr>
+<!-- Clean and simple nav section -->
+<div class="nav">
+        <a href="#about">About</a> | 
+        <a href="#products">Products</a> | 
+        <a href="#contact">Contact</a> 
+</div>
+<!-- Done with nav section -->
+<hr>
+<!-- Tell them all about it! -->
+<div class="content" id="about">
+<h2 class="section-head">About</h2>
+
+<div class="row">
+   
+        <p class="highlight-text" align="center">Brand Marketing</p>
+            <p align="center">Natural, organic, biodegradable ingredients. Small batch. Made in USA. what else ipsum says: Saucer and wings cream java single shot at instant. </p>
+<p align="center">Con panna, mazagran aroma, spoon latte ristretto viennese cream grounds. Flavour siphon chicory single origin robusta iced decaffeinated. To go dripper trifecta iced macchiato body americano java acerbic. Saucer and wings cream java single shot at instant. Con panna, mazagran aroma, spoon latte ristretto viennese cream grounds. Flavour siphon chicory single origin robusta iced decaffeinated. To go dripper trifecta iced macchiato body americano java acerbic.</p>
+    
+</div>
+	<div class="nav"><a href="#top"><i class="fa fa-arrow-up"></i></a></div>
+</div>
+<!-- End of About section -->
+<hr>
+<!-- Now for some cool poducts-->
+<div class="content" id="products">
+<h2 class="section-head">Products</h2>
+
+<div class="row project-grid">
+    <div class="col-md-4 col-xs-12">
+      <a href="#" class="thumbnail">
+      <img src="http://lorempixel.com/output/technics-q-g-400-350-7.jpg" alt="Placeholder image.">
+      </a>
+    </div>
+    <div class="col-md-4 col-xs-12">
+      <a href="#" class="thumbnail">
+      <img src="http://lorempixel.com/output/technics-q-g-400-350-4.jpg" alt="Placeholder image.">
+      </a>
+    </div>
+    <div class="col-md-4 col-xs-12">
+      <a href="#" class="thumbnail">
+      <img src="http://lorempixel.com/output/technics-q-g-400-350-2.jpg" alt="Placeholder image.">
+      </a>
+    </div>
+</div>
+	<div class="nav"><a href="#top"><i class="fa fa-arrow-up"></i></a></div>
+</div>
+<!-- Done with projects section -->
+<hr>
+<!-- Let's chat, shall we? -->
+<div class="content" id="contact">
+<h2 class="section-head">Contact</h2>
+ <p class="highlight-text" align="center">
+	 For bulk inquiries please send an email
+<p class="highlight-text text-center"><a href="mailto:admin@midori">admin@midorisupplies.com</a></p>
+
+	<div class="nav"><a href="#top"><i class="fa fa-arrow-up"></i></a></div>
+</div>
+<!-- End of Contact section -->
+<hr>
+<!-- Nice clean finish -->
+<div class="content" id="footer">
+<p>Made with <i class="fa fa-heart"></i> in USA</i>.&nbsp;&nbsp;<i class="fa fa-copyright">Midori Supplies</i> 2021</p>
+</div>
+</div>
+<!-- Footer done! -->
+<!-- Awesome content ends here! -->
+</div>
+</div>
+
+<!-- Cool scroll effect from this guy: https://gist.github.com/flesler/ -->
+<!-- Include jQuery from somewhere, must use version 1.8 or above -->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- Include latest jquery.scrollTo, can download from https://github.com/flesler/jquery.scrollTo/releases -->
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js"></script>
+<!-- Initialize the plugin, the contents of the script can be inlined here, of course -->
+<script type="text/javascript" src="js/init.js"></script>
+<script>
+  // Bind to the click of all links with a #hash in the href
+  $('a[href^="#"]').click(function(e) {
+    // Prevent the jump and the #hash from appearing on the address bar
+    e.preventDefault();
+    // Scroll the window, stop any previous animation, stop on user manual scroll
+    // Check https://github.com/flesler/jquery.scrollTo for more customizability
+    $(window).stop(true).scrollTo(this.hash, {duration:500, interrupt:false});
+  });
+  </script>
